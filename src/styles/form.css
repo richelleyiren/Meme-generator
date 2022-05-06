@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8em;
+}
+.form{
+    margin-top: 3em;
+}
+input{
+    margin-right: 1em;
+    height: 2em;
+    width: 18em;
+    padding: 1.5em;
+    border-radius: 3em;
+    border: solid;
+}
+input:focus{outline: none;}
+button{
+     margin-right: 1em;
+     min-height: 2em;
+     width: 15em;
+     padding: 1em;
+     border-radius: 3em;
+     border:  black;
+     background-color: turquoise;
+     color: tomato;
+}
+button:hover{
+    background-color: tomato;
+    color: white;
+}
+h3{
+    font-style: italic;
+    font-size: 1.8em;
+    color: rgb(202, 52, 182);
+}
